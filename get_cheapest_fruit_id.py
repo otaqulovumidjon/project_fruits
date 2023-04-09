@@ -31,7 +31,6 @@ def get_cheapest_fruit_id(data: str) -> int:
         if js[b] < y:
             y = js[b]
         b += 1
-    # return y
     return js.index(y)
 print(get_cheapest_fruit_id("fruits.csv"))
     # your code here
