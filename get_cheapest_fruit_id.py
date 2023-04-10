@@ -26,7 +26,6 @@ def get_cheapest_fruit_id(data: str) -> int:
         x += 1
 
     b = 0
-    c = 0
     while b < len(js):
         if js[b] < y:
             y = js[b]
